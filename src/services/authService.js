@@ -6,6 +6,7 @@ const baseURLn = "https://sda-3-onsite-backend-teamwork-urid.onrender.com/api/v1
 console.log(baseURLn);
 console.log(baseURLn);
 console.log(baseURLn);
+console.log("PLEASE WORK URRRRGH");
 
 export const register = async (userRegisterDto) => {
     const response = await axios.post(`${baseURLn}/register`, userRegisterDto);
