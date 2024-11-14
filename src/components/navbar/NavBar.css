@@ -1,0 +1,13 @@
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Centers all nav items vertically */
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center; /* Ensure individual items center their contents */
+  }
+  
+  .navbar-text {
+    padding-left: 10px; /* Optional: Add left padding for better spacing */
+  }

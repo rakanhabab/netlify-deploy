@@ -1,0 +1,28 @@
+.admin-panel {
+    background-color: lightcyan;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .admin-panel h2 {
+    margin: 0;
+    color: #333;
+  }
+
+  .admin-panel {
+    display: flex;
+    align-items: center; /* Centers the children vertically */
+    background-color: lightcyan; /* Ensures it matches your color scheme */
+    padding: 10px;
+    gap: 20px; /* Adds space between the items */
+  }
+  
+  .admin-panel h2 {
+    margin: 0;
+    flex-shrink: 0; /* Prevent h2 from shrinking */
+  }
+  
+  .admin-panel .navbar {
+    flex-grow: 1; /* Allow the navigation to use remaining space */
+  }
+  
